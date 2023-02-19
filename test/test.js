@@ -16,4 +16,9 @@ describe('multiply function', () => {
     const result = multiply(3, 3);
     assert.equal(result, 9);
   });
+
+  it('should multiply 4 and 4 to equal 16', () => {
+    const result = multiply(4, 4);
+    assert.equal(result, 16);
+  });
 });
