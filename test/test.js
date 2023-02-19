@@ -6,4 +6,9 @@ describe('multiply function', () => {
     const result = multiply(1, 1);
     assert.equal(result, 1);
   });
+
+  it('should multiply 2 and 2 to equal 4', () => {
+    const result = multiply(2, 2);
+    assert.equal(result, 4);
+  });
 });
