@@ -11,4 +11,9 @@ describe('multiply function', () => {
     const result = multiply(2, 2);
     assert.equal(result, 4);
   });
+
+  it('should multiply 3 and 3 to equal 9', () => {
+    const result = multiply(3, 3);
+    assert.equal(result, 9);
+  });
 });
