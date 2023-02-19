@@ -21,4 +21,9 @@ describe('multiply function', () => {
     const result = multiply(4, 4);
     assert.equal(result, 16);
   });
+
+   it(`should multiply 23 and 45 to equal ${23 * 45}`, () => {
+     const result = multiply(23, 45);
+     assert.equal(result, 23 * 45);
+   });
 });
